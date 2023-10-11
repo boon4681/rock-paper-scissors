@@ -21,7 +21,6 @@
       id,
       x: Math.random(),
       y: Math.random(),
-      // v: { x: Math.random(), y: Math.random() },
       type: ["📜", "✂️", "🪨"][Math.floor(Math.random() * 3)],
       attacked: false,
       v: { x: speed(), y: speed() },
